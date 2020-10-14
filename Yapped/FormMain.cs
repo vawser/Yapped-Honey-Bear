@@ -1003,11 +1003,11 @@ namespace Yapped
         private string GetResRoot()
         {
             var gameMode = (GameMode)toolStripComboBoxGame.SelectedItem;
-#if DEBUG
-            return $@"..\..\..\..\dist\res\{gameMode.Directory}";
-#else
-            return $@"res\{gameMode.Directory}";
-#endif
+
+            if(settings.ResourceLoadType == "Debug")
+                return $@"..\..\..\..\dist\res\{gameMode.Directory}";
+            else
+                return $@"res\{gameMode.Directory}";
         }
     }
 }

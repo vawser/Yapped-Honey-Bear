@@ -38,5 +38,8 @@
     <Setting Name="GameType" Type="System.String" Scope="User">
       <Value Profile="(Default)">DarkSouls3</Value>
     </Setting>
+    <Setting Name="ResourceLoadType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Local</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
