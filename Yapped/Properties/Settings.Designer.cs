@@ -167,17 +167,5 @@ namespace Yapped.Properties {
                 this["GameType"] = value;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Local")]
-        public string ResourceLoadType {
-            get {
-                return ((string)(this["ResourceLoadType"]));
-            }
-            set {
-                this["ResourceLoadType"] = value;
-            }
-        }
     }
 }

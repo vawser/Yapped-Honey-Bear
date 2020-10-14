@@ -1004,10 +1004,7 @@ namespace Yapped
         {
             var gameMode = (GameMode)toolStripComboBoxGame.SelectedItem;
 
-            if(settings.ResourceLoadType == "Debug")
-                return $@"..\..\..\..\dist\res\{gameMode.Directory}";
-            else
-                return $@"res\{gameMode.Directory}";
+            return $@"res\{gameMode.Directory}";
         }
     }
 }
