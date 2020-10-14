@@ -1,0 +1,53 @@
+ID,Name,Radius,Lifeframe,Is SpEffect Enabled,Rate Type,Fake Target Type 1,Fake Target Type 2,Fake Target Type 3,Interest Category,Is Hit Damage Team
+0,Default (do not edit),0,0,0,0,True,False,False,0,0
+1,Walk,0.5,1,0,1,True,False,False,0,0
+2,Run,6,1,0,1,True,False,False,0,0
+3,Dash,7,1,0,1,True,False,False,0,0
+4,Rolling,10,1,0,1,True,False,False,0,0
+5,Landing,8,1,0,1,True,False,False,0,0
+6,A covert walk,1,1,0,1,True,False,False,0,0
+7,Covert Run,0.5,1,0,1,True,False,False,0,0
+8,Object Destruction,20,1,0,0,True,False,False,1,0
+1000,Walk,0.4,1,1,1,True,False,False,0,0
+1010,Run,5,1,1,1,True,False,False,0,0
+1020,Dash,7,1,1,1,True,False,False,0,0
+1030,Rolling,7,1,1,1,True,False,False,0,0
+1040,Minimal landing,1,1,1,1,True,False,False,0,0
+1050,Small landing,2,1,1,1,True,False,False,0,0
+1060,Normal landing,5,1,1,1,True,False,False,0,0
+1070,Large Landing,7,1,1,1,True,False,False,0,0
+1500,,15,4,0,0,True,False,False,3,0
+1510,,15,4,0,0,True,False,False,5,0
+1520,,15,4,0,0,True,False,False,4,0
+1600,,5,4,0,0,True,False,False,2,0
+2000,Small attack sound,2,1,0,0,True,False,False,1,0
+2010,During the attack sound,4,1,0,0,True,False,False,1,0
+2020,Attack music,6,1,0,0,True,False,False,1,0
+2030,Attack Sound Oversized,8,1,0,0,True,False,False,1,0
+2100,Attack Sound Small,4,1,0,0,True,False,False,1,0
+2110,In the sound of an attack,6,1,0,0,True,False,False,1,0
+2120,Attack music,8,1,0,0,True,False,False,1,0
+2130,,10,1,0,0,True,False,False,1,0
+2200,Attack sound small (normal sound),2,1,1,0,True,False,False,0,0
+2210,,4,1,1,0,True,False,False,0,0
+2220,,6,1,1,0,True,False,False,0,0
+2300,,4,1,0,0,True,False,False,0,0
+2310,,6,1,0,0,True,False,False,0,0
+2320,,8,1,0,0,True,False,False,0,0
+3000,Object Destruction Sound Small,4,1,0,0,True,False,False,1,0
+3010,Object Breaking Sound,7,1,0,0,True,False,False,1,0
+3020,Object Destruction Music,10,1,0,0,True,False,False,1,0
+4000,Wake Up Sound,30,1,0,0,True,False,False,1,0
+4010,Buddy Call Sound: Medium,5,1,0,0,False,True,False,1,0
+4020,Companions Call Sound: Small,30,1,0,0,False,True,False,1,0
+5000,Anxious Sound One,5,1,0,0,True,True,False,0,0
+6000,Companion: Dead Soldier lantern,30,1,0,0,False,True,False,1,0
+9002,Mate call Test: Blue,20,1,0,0,False,True,False,1,0
+9003,Unused,0,1,0,0,True,False,False,0,0
+9004,Per bullet,1,1,0,0,True,False,False,1,0
+9005,Per wall,1,1,0,0,True,False,False,1,0
+9006,Soul Coins,13,1,0,0,True,False,False,0,0
+9007,Hallucinations,5,1,0,0,True,False,False,0,0
+9008,Allure,0,0,0,0,True,False,False,1,0
+9990,,0,0,0,0,False,False,False,0,0
+9991,,0,0,0,0,False,False,False,0,0
