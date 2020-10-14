@@ -1,6 +1,6 @@
 Personal edits to [Yapped](https://github.com/JKAnderson/Yapped).
 
-For those than just want the edited Yapped.exe, you can find it at /Yapped/bin/x64/Debug/
+The compiled Yapped.exe can be found at /Yapped/bin/x64/Debug/
 
 ## Additions
 * Layout and Names for DS3, DS2 and DS1.
