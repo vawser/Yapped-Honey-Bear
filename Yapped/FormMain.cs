@@ -42,7 +42,7 @@ namespace Yapped
 
         private async void FormMain_Load(object sender, EventArgs e)
         {
-            Text = "Yapped " + Application.ProductVersion;
+            Text = "Yapped - Honey Bear Edition";
 
             Location = settings.WindowLocation;
             if (settings.WindowSize.Width >= MinimumSize.Width && settings.WindowSize.Height >= MinimumSize.Height)
@@ -999,6 +999,11 @@ namespace Yapped
             }
         }
         #endregion
+
+        private void ExportHexIDsMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private string GetResRoot()
         {
